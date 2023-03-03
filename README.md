@@ -1,4 +1,4 @@
-# LaSe2
+# LaSe<sub>2<\sub>
 
 
 Repository for paper:  Ab initio Electronic and Optical Properties of Lanathanum Diselenide
