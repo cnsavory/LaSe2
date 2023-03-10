@@ -15,11 +15,6 @@ The final structures have been obtained following an iterative procedure where t
 
 Subsequent electronic structure calculations (DOS, electronic band structure, optics) were performed in VASP, using the settings given in the individual vasprun.xml files. Calculation of vibrational intensities used the [PhonopySpectroscopy](https://github.com/JMSkelton/Phonopy-Spectroscopy) package, while calculation of transport properties uses the [AMSET](https://hackingmaterials.lbl.gov/amset/) package.
 
-Requirements
-------
-To open .cif files, a viewer such as [VESTA](http://jp-minerals.org/vesta/en/).
-To run the `POSCAR` file: a VASP license, and suitable input `INCAR`, `KPOINTS`, and `POTCAR` files.
-
 Disclaimer
 ------
 This file is not affiliated with VASP. Feel free to use and modify, but do so at your own risk.
