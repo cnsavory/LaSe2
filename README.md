@@ -13,7 +13,7 @@ The crystal structures of P2<sub>1</sub>/c and P4/nmm LaSe<sub>2</sub> obtained 
 
 The final structures have been obtained following an iterative procedure where the ion positions, cell shape, and cell volume are allowed to change (`ISIF = 3` in VASP) using a Quasi-Newton algorithm.
 
-Subsequent electronic structure calculations (DOS, electronic band structure, optics) were performed in VASP, using the settings given in the individual vasprun.xml files. Calculation of vibrational intensities used the [PhonopySpectroscopy](https://github.com/JMSkelton/Phonopy-Spectroscopy) package, while calculation of transport properties uses the [AMSET](https://hackingmaterials.lbl.gov/amset/) package.
+Subsequent electronic structure calculations (DOS, electronic band structure, optics) were performed in VASP, using the settings given in the individual vasprun.xml files. Calculation of vibrational intensities used the [PhonopySpectroscopy](https://github.com/JMSkelton/Phonopy-Spectroscopy) package, while calculation of transport properties uses the [AMSET](https://hackingmaterials.lbl.gov/amset/) package. Due to file sizes, vasprun.xml files are hosted on zenodo.
 
 Disclaimer
 ------
