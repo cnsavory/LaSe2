@@ -1,0 +1,33 @@
+#general settings
+doping: 1E18:2E19:11
+temperatures: 300:500:11
+scattering_type: auto
+
+# electronic_structure settings
+interpolation_factor: 2
+
+# material settings
+deformation_potential: ./deformation.h5
+elastic_constant:
+        - [  115.728,   39.792,   33.291,    0.000,    0.529,    0.000 ]
+        - [   39.792,   99.030,   44.137,    0.000,    1.783,    0.000 ]
+        - [   33.291,   44.137,  106.305,    0.000,    3.346,    0.000 ]
+        - [    0.000,    0.000,   -0.000,   49.235,   -0.000,    0.637 ]
+        - [    0.529,    1.783,    3.346,   -0.000,   28.497,    0.000 ]
+        - [    0.000,    0.000,    0.000,    0.637,    0.000,   28.916 ] 
+high_frequency_dielectric: 
+        - [7.290765, 0.00000, 0.047650]
+        - [0.000000, 9.222574, 0.0000000]
+        - [0.047650, 0.00000, 10.433258]
+pop_frequency: 3.13
+static_dielectric: 
+        - [16.19438, 0.001291, -1.75267]
+        - [0.001291, 14.040565, 0.007402]
+        - [-1.75267, 0.007402, 17.706621]
+acceptor_charge: 2
+donor_charge: 2
+free_carrier_screening: true
+
+# performance settings
+mobility_rates_only: true
+write_mesh: true
